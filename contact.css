@@ -159,6 +159,7 @@ nav .nav-end span{
 
 section {
     text-align: center;
+    margin-bottom: 10%;
 }
 
 section i{
@@ -187,4 +188,156 @@ section button{
 
 section button:hover{
     transform: scale(1.1);
+}
+
+footer{
+    margin-top: -120px;
+    padding: 0px 50px 0px 50px;
+    width: 100%;
+    height: 750px;
+}
+
+footer .div1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .top{
+    margin-left: -45px;
+}
+
+footer .left-side .bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
+footer .bottom .ul1 ul{
+    list-style: none;
+    margin-right: 30px;
+}
+
+footer .bottom .ul1 li{
+    margin: 0px 0px 20px 100px;
+}
+
+footer .bottom .ul2 ul{
+    list-style: none;
+    margin-right: 10px;
+}
+
+footer .bottom .ul2 li{
+    margin-left: 20px;
+    margin: 0px 0px 20px 100px;
+}
+
+footer .bottom .ul3 ul{
+    list-style: none;
+}
+
+footer .bottom .ul3 li{
+    margin-left: 20px;
+    margin: 0px 0px 20px 100px;
+}
+
+footer .right-side{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .right-side .left{
+    margin-right: 80px;
+}
+
+footer .right-side .left ul {
+    list-style: none;
+}
+
+footer .right-side .left h2{
+    margin-top: 220px;
+    margin-bottom: 30px;
+}
+
+footer .right-side .left h4{
+    color: blueviolet;
+    margin-top: 20px;
+}
+
+footer .right-side .left p{
+    margin-top: 10px;
+}
+
+footer .right-side .left ul img{
+    width: 300px;
+}
+
+footer .right-side .right{
+    position: relative;
+    margin-right: 30px;
+}
+
+footer .right-side .right h2{
+    margin-top: 220px;
+    margin-bottom: 30px;
+}
+
+footer .one-icon{
+    display: flex;
+}
+
+footer .one-icon i{
+    color: blueviolet;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+footer .two-icon{
+    display: flex;
+}
+
+footer .two-icon i{
+    color: blueviolet;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+footer .three-icon{
+    display: flex;
+}
+
+footer .three-icon i{
+    color: blueviolet;
+    margin-right: 10px;
+    margin-bottom: 90px;
+}
+
+footer h3{
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: 55;
+}
+
+footer input{
+    padding: 15px 30px 15px 15px;
+    border-radius: 5px;
+}
+footer button{
+    position: absolute;
+    top: 537px;
+    left: 140px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+}
+
+footer .end-text{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .end-text .name{
+    color: blueviolet;
 }
